@@ -1,0 +1,27 @@
+.tree{
+    width: 800px;
+    height: 800px;
+}
+.lchild,.rchild{
+    width: 300px;
+    height: 600px;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.lchild-lchild,.lchild-rchild,.rchild-lchild,.rchild-rchild{
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+}
+.child{
+    width: 80px;
+    height: 100px;
+    flex-direction: row;
+}
+.flexBox{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    margin:10px;
+    display: flex;
+}
